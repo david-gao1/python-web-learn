@@ -29,6 +29,11 @@ class Order:
     """
     一个不可变订单对象（frozen=True）。
 
+    frozen=True 的含义：
+    - 创建后不能修改字段（比如 `order.price = ...` 会失败）
+    - 在工程里更容易维护不变量（订单一旦创建，金额与数量不应被悄悄改掉）
+    - dataclass 会基于字段生成比较方法；在 frozen 且默认 eq=True 时也会生成可用的哈希
+
     为什么用 Decimal：
     - 金额计算避免 float 的二进制舍入误差
     """
@@ -51,6 +56,13 @@ class OrderBook:
     目标不是“实现完整的订单系统”，而是演示：
     - 如何用数据模型把业务对象做成“像内置类型一样好用”
     - 如何用类型提示与测试把行为固定为可演进的接口
+
+    这类特殊方法通常不需要你手动调用。你实现它们，是为了让解释器/标准库在合适的语法点调用：
+    - len(book)                 -> book.__len__()
+    - for x in book / iter(book) -> book.__iter__()
+    - x in book                 -> book.__contains__(x)（优先；没有则退化为迭代扫描）
+    - book[i] / book[a:b]       -> book.__getitem__(index_or_slice)
+    - repr(book)                -> book.__repr__()
     """
 
     def __init__(self, orders: list[Order] | None = None) -> None:
