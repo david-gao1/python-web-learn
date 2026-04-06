@@ -63,11 +63,11 @@
 项目路径：
 
 ```bash
-cd /Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model
+cd /Users/lianggao/MyWorkSpace/001-360/python-learning/fluent-python-tutorial
 uv sync
 ```
 
-核心实现位于：[order_book.py](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/src/week01_data_model/order_book.py)
+核心实现位于：[order_book.py](./src/week01_data_model/order_book.py)
 
 ### 3.1 `__len__`：把“数量”变成语言能力
 
@@ -180,7 +180,7 @@ uv run pytest -q
 ## 附录：本章对应的代码与文章来源
 
 本合并文由以下分篇整理而来（你仍可保留它们作为更短的拆分版本）：
-- [week01_post_01_len_iter.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_01_len_iter.md)
-- [week01_post_02_contains.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_02_contains.md)
-- [week01_post_03_repr.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_03_repr.md)
-- [week01_post_04_getitem.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_04_getitem.md)
+- [week01_post_01_len_iter.md](./week01_post_01_len_iter.md)
+- [week01_post_02_contains.md](./week01_post_02_contains.md)
+- [week01_post_03_repr.md](./week01_post_03_repr.md)
+- [week01_post_04_getitem.md](./week01_post_04_getitem.md)

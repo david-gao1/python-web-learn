@@ -1,7 +1,7 @@
 [project]
-name = "week01-data-model"
+name = "fluent-python-tutorial"
 version = "0.1.0"
-description = "Week 1 learning project: Python data model and special methods"
+description = "Learning repo aligned with Fluent Python (2nd Edition)"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
@@ -21,9 +21,9 @@ extend-exclude = ["flasky"]
 [tool.mypy]
 python_version = "3.11"
 strict = true
-mypy_path = ["src"]
+mypy_path = ["chapters/ch01-data-model/src"]
 exclude = "^(flasky/)"
 
 [tool.pytest.ini_options]
-pythonpath = ["src"]
-testpaths = ["tests"]
+pythonpath = ["chapters/ch01-data-model/src"]
+testpaths = ["chapters/ch01-data-model/tests"]

@@ -59,9 +59,9 @@ class OrderBook:
 运行方式：
 
 ```bash
-cd /Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model
+cd /Users/lianggao/MyWorkSpace/001-360/python-learning/fluent-python-tutorial
 uv sync
-uv run python main.py
+uv run python chapters/ch01-data-model/main.py
 ```
 
 你会看到输出里包含 `OrderBook(size=..., ...)`，并且可以在 `main.py` 里用 `len(book)`、`for order in book` 直接操作 `OrderBook`。

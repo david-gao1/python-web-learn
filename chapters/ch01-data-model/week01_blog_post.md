@@ -81,9 +81,9 @@ class OrderBook:
 先用 `uv` 管理虚拟环境和依赖，再跑示例和测试：
 
 ```bash
-cd /Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model
+cd /Users/lianggao/MyWorkSpace/001-360/python-learning/fluent-python-tutorial
 uv sync
-uv run python main.py
+uv run python chapters/ch01-data-model/main.py
 uv run ruff check .
 uv run mypy .
 uv run pytest -q

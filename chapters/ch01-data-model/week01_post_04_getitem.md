@@ -69,7 +69,7 @@ class OrderBook:
 运行方式：
 
 ```bash
-cd /Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model
+cd /Users/lianggao/MyWorkSpace/001-360/python-learning/fluent-python-tutorial
 uv sync
 uv run pytest -q
 ```
