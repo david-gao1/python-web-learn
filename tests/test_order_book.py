@@ -12,6 +12,18 @@ def test_len_and_iter_behavior() -> None:
     assert [o.order_id for o in book] == ["A-1", "A-2"]
 
 
+def test_getitem_supports_index_and_slice() -> None:
+    book = OrderBook(
+        [
+            Order("A-1", "AAPL", 2, Decimal("10.5")),
+            Order("A-2", "TSLA", 1, Decimal("20")),
+            Order("A-3", "MSFT", 1, Decimal("30")),
+        ]
+    )
+    assert book[0].order_id == "A-1"
+    assert [o.order_id for o in book[:2]] == ["A-1", "A-2"]
+
+
 def test_contains_order_id() -> None:
     book = OrderBook([Order("A-1", "AAPL", 1, Decimal("1.0"))])
     assert "A-1" in book

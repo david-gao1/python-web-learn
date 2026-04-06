@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from decimal import Decimal
+from typing import overload
 from typing import Iterator
 
 
@@ -29,6 +30,15 @@ class OrderBook:
 
     def __iter__(self) -> Iterator[Order]:
         return iter(self._orders)
+
+    @overload
+    def __getitem__(self, index: int) -> Order: ...
+
+    @overload
+    def __getitem__(self, index: slice) -> list[Order]: ...
+
+    def __getitem__(self, index: int | slice) -> Order | list[Order]:
+        return self._orders[index]
 
     def __contains__(self, order_id: object) -> bool:
         if not isinstance(order_id, str):

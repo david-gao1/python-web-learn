@@ -48,6 +48,7 @@ uv run pytest -q
 - `__len__` + `__iter__`：[week01_post_01_len_iter.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_01_len_iter.md)
 - `__contains__`：[week01_post_02_contains.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_02_contains.md)
 - `__repr__`：[week01_post_03_repr.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_03_repr.md)
+- `__getitem__`：[week01_post_04_getitem.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_04_getitem.md)
 
 ## 思考题
 1. `__repr__` 与 `__str__` 在工程里如何分工？
