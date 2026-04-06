@@ -179,8 +179,4 @@ uv run pytest -q
 
 ## 附录：本章对应的代码与文章来源
 
-本合并文由以下分篇整理而来（你仍可保留它们作为更短的拆分版本）：
-- [week01_post_01_len_iter.md](./week01_post_01_len_iter.md)
-- [week01_post_02_contains.md](./week01_post_02_contains.md)
-- [week01_post_03_repr.md](./week01_post_03_repr.md)
-- [week01_post_04_getitem.md](./week01_post_04_getitem.md)
+本章在仓库中以“合并长文”为主；如需更短版本，可参考：[week01_blog_post.md](./week01_blog_post.md)

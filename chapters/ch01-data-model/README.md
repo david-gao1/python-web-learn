@@ -44,11 +44,7 @@ uv run pytest -q
 
 ## 本周博客
 - 合并长文（可 > 5000 字）：[week01_ch01_data_model_merged.md](./week01_ch01_data_model_merged.md)
-- 分篇短文（按知识点拆分，每篇含概念 + 实战，<= 5000 字）：
-  - `__len__` + `__iter__`：[week01_post_01_len_iter.md](./week01_post_01_len_iter.md)
-  - `__contains__`：[week01_post_02_contains.md](./week01_post_02_contains.md)
-  - `__repr__`：[week01_post_03_repr.md](./week01_post_03_repr.md)
-  - `__getitem__`：[week01_post_04_getitem.md](./week01_post_04_getitem.md)
+- 早期短文版本（可选）：[week01_blog_post.md](./week01_blog_post.md)
 
 ## 思考题
 1. `__repr__` 与 `__str__` 在工程里如何分工？
