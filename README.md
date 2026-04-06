@@ -44,6 +44,11 @@ uv run pytest -q
 - 所有质量检查通过
 - 能新增一个字段或规则并补上对应测试
 
+## 本周博客（按知识点拆分，每篇含概念 + 实战，<= 5000 字）
+- `__len__` + `__iter__`：[week01_post_01_len_iter.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_01_len_iter.md)
+- `__contains__`：[week01_post_02_contains.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_02_contains.md)
+- `__repr__`：[week01_post_03_repr.md](file:///Users/lianggao/MyWorkSpace/001-360/python-learning/week01-data-model/week01_post_03_repr.md)
+
 ## 思考题
 1. `__repr__` 与 `__str__` 在工程里如何分工？
 2. `__contains__` 现在是线性扫描，何时该改成索引结构？
