@@ -1,11 +1,10 @@
 Flasky
 ======
 
-This repository contains the source code examples for the second edition of my O'Reilly book [Flask Web Development](http://www.flaskbook.com).
+This directory contains the Flasky example application used for learning purposes, based on the example project from the second edition of the O'Reilly book "Flask Web Development".
 
-The commits and tags in this repository were carefully created to match the sequence in which concepts are presented in the book. Please read the section titled "How to Work with the Example Code" in the book's preface for instructions.
+The original project history (commits/tags) is not preserved here. This copy is intended to be used as a local study project within this repository.
 
-For Readers of the First Edition of the Book
---------------------------------------------
-
-The code examples for the first edition of the book were moved to a different repository: [https://github.com/miguelgrinberg/flasky-first-edition](https://github.com/miguelgrinberg/flasky-first-edition).
+Notes
+-----
+- This folder is included as-is for learning and experimentation.
